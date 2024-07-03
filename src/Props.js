@@ -4,7 +4,7 @@ const Props = (props) => {
   return (
     <div className={styles.container}>
       <h2>{props.name}</h2>
-      <img src={props.pic}></img>
+      <img alt="Logo" src={props.pic}></img>
       <p>{props.job_title}</p>
       <p>{props.exp}</p>
       <p>{props.salary}</p> 
