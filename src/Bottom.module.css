@@ -1,0 +1,25 @@
+.Container{
+color:#07d6f1;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+padding:10px;
+justify-content: center;
+font-size:18px;
+column-gap: 20px;background-color: rgb(35, 32, 32);
+border-radius: 15px;
+
+}
+.explore{
+ display:flex;
+ flex-direction: column;
+ 
+ align-items: center;
+ 
+}
+.explore a{
+ display:flex;
+ margin:10px;
+text-decoration: none;
+justify-content: flex-start;
+color:White;
+}
